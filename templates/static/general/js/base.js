@@ -14,7 +14,7 @@ sidebarBtn.addEventListener("click", ()=>{
 });
 
 
-function abrirCadastroClientes() {
+function abrirCadastroClientes(url) {
 
   new WinBox("Cadastro de clientes", {
     background: "#252b4e",
@@ -22,6 +22,6 @@ function abrirCadastroClientes() {
     left: "10%",
     x: "center",
     y: "center",
-    url:"",
+    url:url,
   });
 }
